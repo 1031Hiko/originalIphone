@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293662F31CC6003F003E849F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293662F21CC6003F003E849F /* AppDelegate.swift */; };
+		293662F51CC6003F003E849F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293662F41CC6003F003E849F /* ViewController.swift */; };
+		293662F81CC6003F003E849F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293662F61CC6003F003E849F /* Main.storyboard */; };
+		293662FB1CC6003F003E849F /* HIKOPrototype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 293662F91CC6003F003E849F /* HIKOPrototype.xcdatamodeld */; };
+		293662FD1CC6003F003E849F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293662FC1CC6003F003E849F /* Assets.xcassets */; };
+		293663001CC6003F003E849F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293662FE1CC6003F003E849F /* LaunchScreen.storyboard */; };
+		2936630B1CC6003F003E849F /* HIKOPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936630A1CC6003F003E849F /* HIKOPrototypeTests.swift */; };
+		293663161CC6003F003E849F /* HIKOPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293663151CC6003F003E849F /* HIKOPrototypeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		293663071CC6003F003E849F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293662E71CC6003F003E849F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293662EE1CC6003F003E849F;
+			remoteInfo = HIKOPrototype;
+		};
+		293663121CC6003F003E849F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293662E71CC6003F003E849F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293662EE1CC6003F003E849F;
+			remoteInfo = HIKOPrototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		293662EF1CC6003F003E849F /* HIKOPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIKOPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		293662F21CC6003F003E849F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		293662F41CC6003F003E849F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		293662F71CC6003F003E849F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		293662FA1CC6003F003E849F /* HIKOPrototype.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HIKOPrototype.xcdatamodel; sourceTree = "<group>"; };
+		293662FC1CC6003F003E849F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		293662FF1CC6003F003E849F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		293663011CC6003F003E849F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293663061CC6003F003E849F /* HIKOPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HIKOPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2936630A1CC6003F003E849F /* HIKOPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIKOPrototypeTests.swift; sourceTree = "<group>"; };
+		2936630C1CC6003F003E849F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293663111CC6003F003E849F /* HIKOPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HIKOPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293663151CC6003F003E849F /* HIKOPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIKOPrototypeUITests.swift; sourceTree = "<group>"; };
+		293663171CC6003F003E849F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		293662EC1CC6003F003E849F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293663031CC6003F003E849F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2936630E1CC6003F003E849F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293662E61CC6003F003E849F = {
+			isa = PBXGroup;
+			children = (
+				293662F11CC6003F003E849F /* HIKOPrototype */,
+				293663091CC6003F003E849F /* HIKOPrototypeTests */,
+				293663141CC6003F003E849F /* HIKOPrototypeUITests */,
+				293662F01CC6003F003E849F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		293662F01CC6003F003E849F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				293662EF1CC6003F003E849F /* HIKOPrototype.app */,
+				293663061CC6003F003E849F /* HIKOPrototypeTests.xctest */,
+				293663111CC6003F003E849F /* HIKOPrototypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293662F11CC6003F003E849F /* HIKOPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				293662F21CC6003F003E849F /* AppDelegate.swift */,
+				293662F41CC6003F003E849F /* ViewController.swift */,
+				293662F61CC6003F003E849F /* Main.storyboard */,
+				293662FC1CC6003F003E849F /* Assets.xcassets */,
+				293662FE1CC6003F003E849F /* LaunchScreen.storyboard */,
+				293663011CC6003F003E849F /* Info.plist */,
+				293662F91CC6003F003E849F /* HIKOPrototype.xcdatamodeld */,
+			);
+			path = HIKOPrototype;
+			sourceTree = "<group>";
+		};
+		293663091CC6003F003E849F /* HIKOPrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2936630A1CC6003F003E849F /* HIKOPrototypeTests.swift */,
+				2936630C1CC6003F003E849F /* Info.plist */,
+			);
+			path = HIKOPrototypeTests;
+			sourceTree = "<group>";
+		};
+		293663141CC6003F003E849F /* HIKOPrototypeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				293663151CC6003F003E849F /* HIKOPrototypeUITests.swift */,
+				293663171CC6003F003E849F /* Info.plist */,
+			);
+			path = HIKOPrototypeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		293662EE1CC6003F003E849F /* HIKOPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2936631A1CC6003F003E849F /* Build configuration list for PBXNativeTarget "HIKOPrototype" */;
+			buildPhases = (
+				293662EB1CC6003F003E849F /* Sources */,
+				293662EC1CC6003F003E849F /* Frameworks */,
+				293662ED1CC6003F003E849F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HIKOPrototype;
+			productName = HIKOPrototype;
+			productReference = 293662EF1CC6003F003E849F /* HIKOPrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		293663051CC6003F003E849F /* HIKOPrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2936631D1CC6003F003E849F /* Build configuration list for PBXNativeTarget "HIKOPrototypeTests" */;
+			buildPhases = (
+				293663021CC6003F003E849F /* Sources */,
+				293663031CC6003F003E849F /* Frameworks */,
+				293663041CC6003F003E849F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293663081CC6003F003E849F /* PBXTargetDependency */,
+			);
+			name = HIKOPrototypeTests;
+			productName = HIKOPrototypeTests;
+			productReference = 293663061CC6003F003E849F /* HIKOPrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		293663101CC6003F003E849F /* HIKOPrototypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293663201CC6003F003E849F /* Build configuration list for PBXNativeTarget "HIKOPrototypeUITests" */;
+			buildPhases = (
+				2936630D1CC6003F003E849F /* Sources */,
+				2936630E1CC6003F003E849F /* Frameworks */,
+				2936630F1CC6003F003E849F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293663131CC6003F003E849F /* PBXTargetDependency */,
+			);
+			name = HIKOPrototypeUITests;
+			productName = HIKOPrototypeUITests;
+			productReference = 293663111CC6003F003E849F /* HIKOPrototypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		293662E71CC6003F003E849F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Toshihiko Kubo";
+				TargetAttributes = {
+					293662EE1CC6003F003E849F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					293663051CC6003F003E849F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 293662EE1CC6003F003E849F;
+					};
+					293663101CC6003F003E849F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 293662EE1CC6003F003E849F;
+					};
+				};
+			};
+			buildConfigurationList = 293662EA1CC6003F003E849F /* Build configuration list for PBXProject "HIKOPrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 293662E61CC6003F003E849F;
+			productRefGroup = 293662F01CC6003F003E849F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293662EE1CC6003F003E849F /* HIKOPrototype */,
+				293663051CC6003F003E849F /* HIKOPrototypeTests */,
+				293663101CC6003F003E849F /* HIKOPrototypeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293662ED1CC6003F003E849F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293663001CC6003F003E849F /* LaunchScreen.storyboard in Resources */,
+				293662FD1CC6003F003E849F /* Assets.xcassets in Resources */,
+				293662F81CC6003F003E849F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293663041CC6003F003E849F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2936630F1CC6003F003E849F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293662EB1CC6003F003E849F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293662F51CC6003F003E849F /* ViewController.swift in Sources */,
+				293662FB1CC6003F003E849F /* HIKOPrototype.xcdatamodeld in Sources */,
+				293662F31CC6003F003E849F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293663021CC6003F003E849F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2936630B1CC6003F003E849F /* HIKOPrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2936630D1CC6003F003E849F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293663161CC6003F003E849F /* HIKOPrototypeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		293663081CC6003F003E849F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293662EE1CC6003F003E849F /* HIKOPrototype */;
+			targetProxy = 293663071CC6003F003E849F /* PBXContainerItemProxy */;
+		};
+		293663131CC6003F003E849F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293662EE1CC6003F003E849F /* HIKOPrototype */;
+			targetProxy = 293663121CC6003F003E849F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		293662F61CC6003F003E849F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293662F71CC6003F003E849F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		293662FE1CC6003F003E849F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293662FF1CC6003F003E849F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		293663181CC6003F003E849F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		293663191CC6003F003E849F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2936631B1CC6003F003E849F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HIKOPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Toshihikokubo.HIKOPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2936631C1CC6003F003E849F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HIKOPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Toshihikokubo.HIKOPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2936631E1CC6003F003E849F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HIKOPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Toshihikokubo.HIKOPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HIKOPrototype.app/HIKOPrototype";
+			};
+			name = Debug;
+		};
+		2936631F1CC6003F003E849F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HIKOPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Toshihikokubo.HIKOPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HIKOPrototype.app/HIKOPrototype";
+			};
+			name = Release;
+		};
+		293663211CC6003F003E849F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HIKOPrototypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Toshihikokubo.HIKOPrototypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HIKOPrototype;
+			};
+			name = Debug;
+		};
+		293663221CC6003F003E849F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HIKOPrototypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Toshihikokubo.HIKOPrototypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HIKOPrototype;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		293662EA1CC6003F003E849F /* Build configuration list for PBXProject "HIKOPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293663181CC6003F003E849F /* Debug */,
+				293663191CC6003F003E849F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2936631A1CC6003F003E849F /* Build configuration list for PBXNativeTarget "HIKOPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2936631B1CC6003F003E849F /* Debug */,
+				2936631C1CC6003F003E849F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2936631D1CC6003F003E849F /* Build configuration list for PBXNativeTarget "HIKOPrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2936631E1CC6003F003E849F /* Debug */,
+				2936631F1CC6003F003E849F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		293663201CC6003F003E849F /* Build configuration list for PBXNativeTarget "HIKOPrototypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293663211CC6003F003E849F /* Debug */,
+				293663221CC6003F003E849F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		293662F91CC6003F003E849F /* HIKOPrototype.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				293662FA1CC6003F003E849F /* HIKOPrototype.xcdatamodel */,
+			);
+			currentVersion = 293662FA1CC6003F003E849F /* HIKOPrototype.xcdatamodel */;
+			path = HIKOPrototype.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 293662E71CC6003F003E849F /* Project object */;
+}
